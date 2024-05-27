@@ -4,7 +4,7 @@ public class Main {
         double height = 1.87;
         int weight = 98;
         double index = (int) (service.calculate(height, weight));
-        System.out.println("ИМТ(Индекс Массы Тела) = " + index);
+        System.out.println("ИМТ(Индекс Массы Тела) = " + Math.round(index));
 
 
     }
