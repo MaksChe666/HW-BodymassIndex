@@ -4,4 +4,3 @@ public class BmiService {
 
     }
 }
-2
